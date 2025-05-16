@@ -1,3 +1,10 @@
+/*
+ * Project: Accident Detection and Alert System
+ * Author: Saad Iqbal Chavhan
+ * Date: April 16, 2024
+ * Description: Arduino-based system to detect vehicle accidents using MPU6050, 
+ * retrieve location via GPS, and send SMS alerts via SIM800 GSM module.
+ */
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
 #include "I2Cdev.h"
